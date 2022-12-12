@@ -1,8 +1,8 @@
-import {Autocomplete} from '@react-google-maps/api'
-import {AppBar, Toolbar, Typography, InputBase, Box} from '@material-ui/core'
-import SearchIcon from '@material-ui/icons/Search'
+
+import {AppBar, Toolbar, Typography} from '@material-ui/core'
+
 import useStyles from './Styles';
-import { useState } from 'react';
+
 const Header = () => {
     const classes = useStyles();
 
@@ -13,6 +13,7 @@ const Header = () => {
                 <Typography variant="h5" className={classes.title}>
                     BIGO Travel Advisor
                 </Typography>
+
             </Toolbar>
         </AppBar>
      );

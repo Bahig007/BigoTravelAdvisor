@@ -1,12 +1,12 @@
-import { alpha, makeStyles } from '@material-ui/core/styles'; 
+import { makeStyles } from '@material-ui/core/styles'; 
 
-export default makeStyles((theme) => ({
+export default makeStyles(() => ({
     title: {
-      display: 'none',
-      [theme.breakpoints.up('sm')]: {
-        display: 'block',
-      },
+      display: 'block',
+      
     },
+ 
+
     toolbar: {
       display: 'flex', justifyContent: 'space-between',
     },
